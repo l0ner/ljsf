@@ -61,10 +61,10 @@ _Usage_:
 **itph(): Converts integer to it's hax value, padding it with zeroes.**
 
 _Usage_:
-- `convert.atoi(int, lenght)` - returns hex value of specified integer, padded with n zeroes. Parameter `lenght` indicates lenght of returned string. <br />
-_Example_: `convert.atoi(30, 4);` will return `001E`. <br />
+- `convert.itph(int, lenght)` - returns hex value of specified integer, padded with n zeroes. Parameter `lenght` indicates lenght of returned string. <br />
+_Example_: `convert.itph(30, 4);` will return `001E`. <br />
 **The string will not get trimmed**<br />
-_Example_: `convert.atoi(300, 1);` will result in `12C`. <br />
+_Example_: `convert.itph(300, 1);` will result in `12C`. <br />
 
 TODO:
 -----
